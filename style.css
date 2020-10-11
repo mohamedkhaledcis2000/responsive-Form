@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    background: linear-gradient(to left, #fa709a 0%, #fee140 100%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.flex-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    width: 100%;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    outline: none;
+}
+.flex-element{
+    width: 85%;
+    height: 85%;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    
+}
+h3{
+    font-size: 55px;
+    color: #6D30F8;
+    margin-bottom: 40px;
+}
+p{
+    color: #999999;
+}
+#f{
+    float: right;
+    margin-left: 200px;
+}
+button{
+    width: 100%;
+    background-color: #6D30F8;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border: 0px;
+    margin-bottom: 20px;
+}
+.small{
+    display: flex;
+    flex-direction: row;
+}
+#ch1{
+   width: 18px;
+   height: 18px;
+   border: 2px solid #6D30F8;
+   margin-right: 10px;
+}
+.label{
+    color: #999999;
+    font-size: 15px;
+}
+.label{
+    position: absolute;
+    transform: translate(10px,10px);
+}
+.move{
+     position: absolute;
+    transform: translate(-2px,-20px);
+    color: #6D30F8;
+}
+.brd{
+    border-bottom: 5px solid #6D30F8;
+}
+input[type="checkbox"]
+{
+    height: 7px;
+    width: 7px;
+    top: 5px;
+    left: -21px;
+    background-color: #6d30f8;
+}
+
+
+
